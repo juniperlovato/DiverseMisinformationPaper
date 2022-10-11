@@ -1,88 +1,88 @@
 Feature ,MCC for guess vs. actual,"Phase 1 & 2 Confusion Matrix  [[TP  FN ]
- [FP  TN ]] numbers",N (3820 videos),Bias Significance ,Bias Type,spearman for guess vs. actual and Pvalue
+ [FP  TN ]] numbers",N (3820 videos),Bias Type,spearman for guess vs. actual and Pvalue
 Female_baseline,-0.0036,"[[672 257]
-  [659 248]]",1836,,Baseline,"SpearmanrResult(correlation=-0.003597013257067301, pvalue=0.8775920674832047)"
+  [659 248]]",1836,Baseline,"SpearmanrResult(correlation=-0.003597013257067301, pvalue=0.8775920674832047)"
 Female_Heterophily,-0.0306,"[[259 120]
-  [259 105]]",743,0.84,Heterophily,"SpearmanrResult(correlation=-0.03063829457358744, pvalue=0.4043209276725396)"
+  [259 105]]",743,Heterophily,"SpearmanrResult(correlation=-0.03063829457358744, pvalue=0.4043209276725396)"
 Female_Homophily,0.0163,"[[413 137]
-  [400 143]]",1093,0.84,Homophily,"SpearmanrResult(correlation=0.01633435883791891, pvalue=0.5895826209512303)"
+  [400 143]]",1093,Homophily,"SpearmanrResult(correlation=0.01633435883791891, pvalue=0.5895826209512303)"
 Male_baseline,0.0649,"[[862 256]
-  [770 308]]",2196,,Homophily,"SpearmanrResult(correlation=0.06491929270555252, pvalue=0.0023369257699704243)"
+  [770 308]]",2196,Homophily,"SpearmanrResult(correlation=0.06491929270555252, pvalue=0.0023369257699704243)"
 Male_Heterophily,0.0515,"[[507 151]
-  [450 170]]",1278,0.77,Baseline,"SpearmanrResult(correlation=0.05152376103754425, pvalue=0.06557026773967847)"
+  [450 170]]",1278,Baseline,"SpearmanrResult(correlation=0.05152376103754425, pvalue=0.06557026773967847)"
 Male_Homophily,0.0828,"[[355 105]
-  [320 138]]",918,0.77,Heterophily,"SpearmanrResult(correlation=0.08278886750339552, pvalue=0.012098073646676574)"
+  [320 138]]",918,Heterophily,"SpearmanrResult(correlation=0.08278886750339552, pvalue=0.012098073646676574)"
 White_baseline,0.0063,"[[984 343]
-  [934 335]]",2596,,Baseline,"SpearmanrResult(correlation=0.006269731567821229, pvalue=0.7495004669205674)"
+  [934 335]]",2596,Baseline,"SpearmanrResult(correlation=0.006269731567821229, pvalue=0.7495004669205674)"
 White_Heterophily,-0.0498,"[[495 184]
-  [421 124]]",1224,1,Heterophily,"SpearmanrResult(correlation=-0.04977804443733644, pvalue=0.08171510456860681)"
+  [421 124]]",1224,Heterophily,"SpearmanrResult(correlation=-0.04977804443733644, pvalue=0.08171510456860681)"
 White_Homophily,0.0518,"[[489 159]
-  [513 211]]",1372,1,Homophily,"SpearmanrResult(correlation=0.05182072086275247, pvalue=0.05498354268972214)"
+  [513 211]]",1372,Homophily,"SpearmanrResult(correlation=0.05182072086275247, pvalue=0.05498354268972214)"
 PersonofColor_baseline,0.0815,"[[550 170]
-  [495 221]]",1436,,Baseline,"SpearmanrResult(correlation=0.08148962493296169, pvalue=0.0019984150899330093)"
+  [495 221]]",1436,Baseline,"SpearmanrResult(correlation=0.08148962493296169, pvalue=0.0019984150899330093)"
 PersonofColor_Heterophily,0.0668,"[[244 91]
-  [262 131]]",728,0.64,Heterophily,"SpearmanrResult(correlation=0.06678709610498074, pvalue=0.07171408325264347)"
+  [262 131]]",728,Heterophily,"SpearmanrResult(correlation=0.06678709610498074, pvalue=0.07171408325264347)"
 PersonofColor_Homophily,0.0858,"[[306 79]
-  [233 90]]",708,0.64,Homophily,"SpearmanrResult(correlation=0.08581122401831855, pvalue=0.02240288434630872)"
+  [233 90]]",708,Homophily,"SpearmanrResult(correlation=0.08581122401831855, pvalue=0.02240288434630872)"
 Age1829_Baseline,0.1319,"[[269 77]
-  [224 116]]",686,,Baseline,"SpearmanrResult(correlation=0.13191109902860154, pvalue=0.0005325839850251848)"
+  [224 116]]",686,Baseline,"SpearmanrResult(correlation=0.13191109902860154, pvalue=0.0005325839850251848)"
 Age1829_Heterophily,0.1476,"[[152 49]
-  [117 65]]",383,0.62,Heterophily,"SpearmanrResult(correlation=0.12381456808267315, pvalue=0.015328867441669263)"
+  [117 65]]",383,Heterophily,"SpearmanrResult(correlation=0.12381456808267315, pvalue=0.015328867441669263)"
 Age1829_Homophily,0.1476,"[[117 28]
-  [107 51]]",303,0.62,Homophily,"SpearmanrResult(correlation=0.14755453179797293, pvalue=0.010112946146219761)"
+  [107 51]]",303,Homophily,"SpearmanrResult(correlation=0.14755453179797293, pvalue=0.010112946146219761)"
 Age3049_Baseline,0.0139,"[[413 118]
-  [416 127]]",1074,,Baseline,"SpearmanrResult(correlation=0.013896946465940932, pvalue=0.6491657108895665)"
+  [416 127]]",1074,Baseline,"SpearmanrResult(correlation=0.013896946465940932, pvalue=0.6491657108895665)"
 Age3049_Heterophily,0.0360,"[[178 54]
-  [173 62]]",467,0.74,Heterophily,"SpearmanrResult(correlation=0.035954473171364396, pvalue=0.4382503757589281)"
+  [173 62]]",467,Heterophily,"SpearmanrResult(correlation=0.035954473171364396, pvalue=0.4382503757589281)"
 Age304_Homophily,-0.0037,"[[235 64]
-  [243 65]]",607,0.74,Homophily,"SpearmanrResult(correlation=-0.0036758688943695603, pvalue=0.9279873378540351)"
+  [243 65]]",607,Homophily,"SpearmanrResult(correlation=-0.0036758688943695603, pvalue=0.9279873378540351)"
 Age50Plus_baseline,0.0137,"[[852 318]
-  [789 313]]",2272,,Baseline,"SpearmanrResult(correlation=0.013651775512830505, pvalue=0.515439736353934)"
+  [789 313]]",2272,Baseline,"SpearmanrResult(correlation=0.013651775512830505, pvalue=0.515439736353934)"
 Age50Plus_Heterophily,0.0105,"[[677 255]
-  [636 251]]",1819,0.61,Heterophily,"SpearmanrResult(correlation=0.010453366287594147, pvalue=0.655930269454908)"
+  [636 251]]",1819,Heterophily,"SpearmanrResult(correlation=0.010453366287594147, pvalue=0.655930269454908)"
 Age50Plus_Homophily,0.0264,"[[175 63]
-  [153 62]]",453,0.61,Homophily,"SpearmanrResult(correlation=0.026438968432032767, pvalue=0.5746168905394876)"
+  [153 62]]",453,Homophily,"SpearmanrResult(correlation=0.026438968432032767, pvalue=0.5746168905394876)"
 Age5064_Baseline,0.0247,"[[460 145]
-  [416 147]]",1168,,Knowledge,"SpearmanrResult(correlation=0.024731331372856765, pvalue=0.3984221793670949)"
+  [416 147]]",1168,Knowledge,"SpearmanrResult(correlation=0.024731331372856765, pvalue=0.3984221793670949)"
 Age5064_Heterophily,0.0095,"[[375 121]
-  [344 116]]",956,0.86,Baseline,"SpearmanrResult(correlation=0.009514247871528866, pvalue=0.7689144167673607)"
+  [344 116]]",956,Baseline,"SpearmanrResult(correlation=0.009514247871528866, pvalue=0.7689144167673607)"
 Age5064_Homophily,0.0921,"[[85 24]
-  [72 31]]",212,0.86,Heterophily,"SpearmanrResult(correlation=0.09211794792319243, pvalue=0.18149357613785666)"
+  [72 31]]",212,Heterophily,"SpearmanrResult(correlation=0.09211794792319243, pvalue=0.18149357613785666)"
 Age65plus_Baseline,0.0019,"[[392 173]
-  [373 166]]",1104,,Homophily,"SpearmanrResult(correlation=0.0019321936762744774, pvalue=0.948868819641443)"
+  [373 166]]",1104,Homophily,"SpearmanrResult(correlation=0.0019321936762744774, pvalue=0.948868819641443)"
 Age65plus_Heterophily,-0.0016,"[[372 166]
-  [361 160]]",1059,0.7,Baseline,"SpearmanrResult(correlation=-0.0015687554468689312, pvalue=0.9593329953240428)"
+  [361 160]]",1059,Baseline,"SpearmanrResult(correlation=-0.0015687554468689312, pvalue=0.9593329953240428)"
 Age65plus_Homophily,0.0801,"[[20 7]
-  [12 6]]",45,0.7,Heterophily,"SpearmanrResult(correlation=0.08006407690254358, pvalue=0.6011043672205639)"
+  [12 6]]",45,Heterophily,"SpearmanrResult(correlation=0.08006407690254358, pvalue=0.6011043672205639)"
 FemalePOC_Baseline,0.0162,"[[256 97]
-  [248 101]]",702,,Homophily,"SpearmanrResult(correlation=0.016233963888750612, pvalue=0.6676428940850918)"
+  [248 101]]",702,Homophily,"SpearmanrResult(correlation=0.016233963888750612, pvalue=0.6676428940850918)"
 FemalePOC_Heterophily,-0.0264,"[[162 77]
-  [184 78]]",501,0.94,Not,"SpearmanrResult(correlation=-0.02643657995509119, pvalue=0.554952097667633)"
+  [184 78]]",501,Not,"SpearmanrResult(correlation=-0.02643657995509119, pvalue=0.554952097667633)"
 FemalePOC_Homophily,0.1074,"[[94 20]
-  [64 23]]",201,0.94,Baseline,"SpearmanrResult(correlation=0.10744686830961502, pvalue=0.12895889175881334)"
+  [64 23]]",201,Baseline,"SpearmanrResult(correlation=0.10744686830961502, pvalue=0.12895889175881334)"
 MalePOC_Baseline,0.1455,"[[294 73]
-  [247 120]]",734,,Heterophily,"SpearmanrResult(correlation=0.14545229258283027, pvalue=7.653728542959175e-05)"
+  [247 120]]",734,Heterophily,"SpearmanrResult(correlation=0.14545229258283027, pvalue=7.653728542959175e-05)"
 MalePOC_Heterophily,0.1673,"[[223 56]
-  [180 97]]",556,0.86,Homophily,"SpearmanrResult(correlation=0.16733213766953506, pvalue=7.347555677128424e-05)"
+  [180 97]]",556,Homophily,"SpearmanrResult(correlation=0.16733213766953506, pvalue=7.347555677128424e-05)"
 MalePOC_Homophily,0.0747,"[[71 17]
-  [67 23]]",178,0.86,SM Savvy,"SpearmanrResult(correlation=0.07471276672259794, pvalue=0.3216094038627525)"
+  [67 23]]",178,SM Savvy,"SpearmanrResult(correlation=0.07471276672259794, pvalue=0.3216094038627525)"
 WhiteFemale_Baseline,-0.0161,"[[416 160]
-  [411 147]]",1134,,Not,"SpearmanrResult(correlation=-0.01613103326244936, pvalue=0.587372581416275)"
+  [411 147]]",1134,Not,"SpearmanrResult(correlation=-0.01613103326244936, pvalue=0.587372581416275)"
 WhiteFemale_Heterophily,-0.0373,"[[284 115]
-  [263 90]]",752,0.84,Baseline,"SpearmanrResult(correlation=-0.03727908128842438, pvalue=0.3072808163653109)"
+  [263 90]]",752,Baseline,"SpearmanrResult(correlation=-0.03727908128842438, pvalue=0.3072808163653109)"
 WhiteFemale_Homophily,0.0268,"[[132 45]
-  [148 57]]",382,0.84,Heterophily,"SpearmanrResult(correlation=0.02683929335504196, pvalue=0.6010130373148013)"
+  [148 57]]",382,Heterophily,"SpearmanrResult(correlation=0.02683929335504196, pvalue=0.6010130373148013)"
 WhiteMale_Baseline,0.0238,"[[568 183]
-  [523 188]]",1462,,Homophily,"SpearmanrResult(correlation=0.023822626179810385, pvalue=0.3626988073089229)"
+  [523 188]]",1462,Homophily,"SpearmanrResult(correlation=0.023822626179810385, pvalue=0.3626988073089229)"
 WhiteMale_Heterophily,0.0111,"[[466 151]
-  [428 146]]",1191,0.83,Baseline,"SpearmanrResult(correlation=0.01111358239899599, pvalue=0.7016096814273614)"
+  [428 146]]",1191,Baseline,"SpearmanrResult(correlation=0.01111358239899599, pvalue=0.7016096814273614)"
 WhiteMale_Homophily,0.0760,"[[102 32]
-  [ 95 42]]",271,0.83,Heterophily,"SpearmanrResult(correlation=0.07604290940692293, pvalue=0.21208767192566502)"
+  [ 95 42]]",271,Heterophily,"SpearmanrResult(correlation=0.07604290940692293, pvalue=0.21208767192566502)"
 Knowledgeable_about_deepfakes,0.0790,"[[315 95]
-  [278 120]]",808,0.94,Homophily,"SpearmanrResult(correlation=0.07896664430904637, pvalue=0.024788373397559973)"
+  [278 120]]",808,Homophily,"SpearmanrResult(correlation=0.07896664430904637, pvalue=0.024788373397559973)"
 Not_Knowledgeable_about_deepfakes,0.0175,"[[1169 411]
-  [1104 420]]",3104,0.94,Baseline,"SpearmanrResult(correlation=0.07896664430904637, pvalue=0.024788373397559973)"
+  [1104 420]]",3104,Baseline,"SpearmanrResult(correlation=0.07896664430904637, pvalue=0.024788373397559973)"
 social_media_frequently,0.0396,"[[1388 1294]
-  [ 444 496]]",3622,0.84,Heterophily,"SpearmanrResult(correlation=0.03961748601585165, pvalue=0.017106328063306416)"
+  [ 444 496]]",3622,Heterophily,"SpearmanrResult(correlation=0.03961748601585165, pvalue=0.017106328063306416)"
 social_media_infrequently,-0.0110,"[[141 128]
-  [ 67 58]]",394,0.84,Homophily,"SpearmanrResult(correlation=-0.011034782716352177, pvalue=0.8271603860733289)"
+  [ 67 58]]",394,Homophily,"SpearmanrResult(correlation=-0.011034782716352177, pvalue=0.8271603860733289)"
